@@ -1,0 +1,21 @@
+public class Pasta {
+    private String favouriteFood;
+
+    public Pasta(String favouriteFood) {
+        this.favouriteFood = favouriteFood;
+    }
+
+    public String getFavouriteFood() {
+        return favouriteFood;
+    }
+
+    public void setFavouriteFood(String favouriteFood) {
+        this.favouriteFood = favouriteFood;
+    }
+
+    public static void main(String[] args) {
+        Pasta myPasta = new Pasta("Pasta");
+        System.out.println("My favourite food is: " + myPasta.getFavouriteFood());
+    }
+}
+

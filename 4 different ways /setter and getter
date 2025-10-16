@@ -1,0 +1,17 @@
+public class Pasta {
+    private String favouriteFood;
+
+    public String getFavouriteFood() {
+        return favouriteFood;
+    }
+
+    public void setFavouriteFood(String favouriteFood) {
+        this.favouriteFood = favouriteFood;
+    }
+
+    public static void main(String[] args) {
+        Pasta myPasta = new Pasta();
+        myPasta.setFavouriteFood("Pasta");
+        System.out.println("My favourite food is: " + myPasta.getFavouriteFood());
+    }
+}

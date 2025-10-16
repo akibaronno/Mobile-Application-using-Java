@@ -1,0 +1,14 @@
+import lombok.Getter;
+import lombok.Setter;
+
+public class Pasta {
+    @Getter
+    @Setter
+    private String favouriteFood;
+
+    public static void main(String[] args) {
+        Pasta myPasta = new Pasta();
+        myPasta.setFavouriteFood("Pasta");
+        System.out.println("My favourite food is: " + myPasta.getFavouriteFood());
+    }
+}
